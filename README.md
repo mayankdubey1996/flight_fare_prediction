@@ -91,6 +91,8 @@ python app.py
 
 #### 2. Run with docker.
 
+Assuming you already have docker installed
+
 1. Open anaconda `terminal` and `run`.
 
 ```
