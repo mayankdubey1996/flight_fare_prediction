@@ -48,7 +48,7 @@ Although this web application won't help anyone to check the price of the flight
 
 #### 1. Run without docker.
 
-1. Open the anaconda termial and create new `environment`
+1. Open the anaconda termial and create new __environment__
 
 ```
 conda create -n myenv python=3.7
@@ -63,7 +63,7 @@ conda create -n myenv python=3.7
 conda activate myenv
 ```
 
-4. `install` all the required dependencies to run the project.
+4. __install__ all the required dependencies to run the project.
 
 ```
 pip install requirements.txt
@@ -81,13 +81,13 @@ pip install jupyter notebook
 python train.py
 ```
 
-7. Let's launch the web application:
+7. Let's launch the __web application__
 
 ```
 python app.py
 ```
 
-8. Enter data have fun.
+8. Enter the data have fun.
 
 #### 2. Run with docker.
 
