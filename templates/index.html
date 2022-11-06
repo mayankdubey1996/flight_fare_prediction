@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hurray Book cheap flight Tickets</title>
+    <link rel="stylesheet">
+    <style>
+        div.form
+        {
+            display: block;
+            text-align: center;
+        }
+        textarea {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        ul {
+        width: 25%;
+        margin: auto; 
+        }
+        input {
+        display:inline-block !important;
+        width: 100px !important;
+        }
+    </style>
+</head>
+
+<body style="background-image: url('https://st4.depositphotos.com/23645748/25050/i/1600/depositphotos_250505964-stock-photo-airplane-isolated-white-background-rendering.jpg');">
+    <h1 style="text-align: center;">Book Cheap flight</h1>
+    <br>
+    <div class="form">
+    <form name = "flight" action="." method="POST">
+    	
+        <select name="source_city" type=text>
+            <option value="">Source city</option>
+			<option value="Delhi">Delhi</option>
+			<option value="Mumbai">Mumbai</option>
+            <option value="Bangalore">Bangalore</option>
+			<option value="Kolkata">Kolkata</option>
+            <option value="Hyderabad">Hyderabad</option> 
+        </select>
+        
+        <select name="destination_city" type=text>
+            <option value="">Destination city</option>
+			<option value="Delhi">Delhi</option>
+			<option value="Mumbai">Mumbai</option>
+            <option value="Bangalore">Bangalore</option>
+			<option value="Kolkata">Kolkata</option>
+            <option value="Hyderabad">Hyderabad</option> 
+        </select>
+        
+        <select name="airline" type=text>
+            <option value="">Airline</option>
+            <option value="Vistara"> Vistara </option>
+            <option value="Air_India"> Air India </option>
+            <option value="Indigo"> Indigo </option>
+            <option value="GO_First"> Go First </option>
+            <option value="AirAsia"> Air Asia </option>
+            <option value="SpiceJet"> Spice Jet </option> 
+        </select>
+        	
+        <select name="departure_time" type=text>
+        	<option value="">Departure Time</option>
+  			<option value="Early_Morning"> Early Morning </option>
+            <option value="Morning"> Morning </option>
+            <option value="After_Noon"> After Noon </option>
+            <option value="Evening"> Evening </option>
+            <option value="Night"> Night </option>
+            <option value="Late_Night"> Late Night </option>
+        </select>
+        
+        <select name="arrival_time" type=text>
+        	<option value="">Arrival Time</option>
+  			<option value="Early_Morning"> Early Morning </option>
+            <option value="Morning"> Morning </option>
+            <option value="After_Noon"> After Noon </option>
+            <option value="Evening"> Evening </option>
+            <option value="Night"> Night </option>
+            <option value="Late_Night"> Late Night </option>
+        </select>
+        
+        <select name="stops" type=text>
+        	<option value="">Stops</option>
+  			<option value="zero">0</option>
+            <option value="one">1</option>
+            <option value="two_or_more">>=2</option>
+         </select>
+         
+         <input name="date" type=date data-date-inline-picker="true"></input>
+         <input type="submit" value="Submit">
+            
+        
+        
+    </form>
+        
+    <!--</form>-->
+    
+
+    {% if res %}
+    <h2>Flight Fare is: </h2>
+    <p id="result">{{ res }}</p>
+    {% endif %}
+    
+    </div>
+</body>
+
+</html>
