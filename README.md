@@ -50,29 +50,42 @@ Although this web application won't help anyone to check the price of the flight
 
 1. Open the anaconda termial and create new `environment`
 
-`conda create -n myenv python=3.7`
+```
+conda create -n myenv python=3.7
+```
+
 
 2. Locate conda to project files.
 
 3. Activate the enviroment for the project.
 
-`conda activate myenv`
+```
+conda activate myenv
+```
 
 4. `install` all the required dependencies to run the project.
 
-`pip install requirements.txt`
+```
+pip install requirements.txt
+```
 
 5. __optional__ To run `notebook.ipynb` file `run` extra command.
 
-`pip install jupyter notebook`
+```
+pip install jupyter notebook
+```
 
 6. __optional__ To train the model: 
 
-`python train.py`
+```
+python train.py
+```
 
 7. Let's launch the web application:
 
-`python app.py`
+```
+python app.py
+```
 
 8. Enter data have fun.
 
@@ -80,21 +93,31 @@ Although this web application won't help anyone to check the price of the flight
 
 1. Open anaconda `terminal` and `run`.
 
-`docker build -t app .`
+```
+docker build -t app .
+```
 
 2. Let's check the available files
 
-`docker run -it app sh`
+```
+docker run -it app sh
+```
 
-`ls`
+```
+ls
+```
 
 3. Exit.
 
-`exit`
+```
+exit
+```
 
 4. Launch the app using dockers. 
 
-`docker run -p 5000:5000 mlapp`
+```
+docker run -p 5000:5000 mlapp
+```
 
 
 
