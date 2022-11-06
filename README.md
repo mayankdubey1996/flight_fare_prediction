@@ -7,7 +7,9 @@
 2. Dataset
 
 3. How to run
+        
         3.1 Without docker
+        
         3.2 With docker
 
 ### Problem Statement:
