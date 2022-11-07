@@ -14,7 +14,7 @@
 
 ### Problem Statement:
 
-Couple of weeks back I found myself booking airplane tickets for my upcoming vacation. Hence I thought to analyze flight fare prediction dataset and build this regression model to pedict the flight fares between 5 major cities in india `[Delhi, Mumbai, Kolakata, Banglore, Chennai]`.
+Couple of weeks back I found myself booking airplane tickets for my upcoming vacation. Hence I thought to analyze flight fare prediction dataset and build this regression model to pedict the flight fares between  major cities in india `[Delhi, Mumbai, Kolakata, Banglore, Chennai, Hyderabad]`.
 
 __Note__
 
