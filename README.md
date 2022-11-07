@@ -44,6 +44,13 @@ Although this web application won't help anyone to check the price of the flight
 
 [Download Dataset](https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction)
 
+### File structure
+
+```bash
+.
+|--.ipynb_checkpoints
+```
+
 ### How to run?
 
 For both the cases assuming project repository is aready been cloned.
