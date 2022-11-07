@@ -57,8 +57,12 @@ For both the cases assuming project repository is aready been cloned.
 conda create -n myenv python=3.7
 ```
 
+![My Image](my-image.jpg)
+
 
 2. Locate conda to project files.
+
+![My Image](my-image.jpg)
 
 3. Activate the enviroment for the project.
 
@@ -66,11 +70,17 @@ conda create -n myenv python=3.7
 conda activate myenv
 ```
 
+![My Image](my-image.jpg)
+
+
 4. __install__ all the required dependencies to run the project.
 
 ```
 pip install requirements.txt
 ```
+
+![My Image](my-image.jpg)
+
 
 5. __optional__ To run `notebook.ipynb` file `run` extra command.
 
@@ -78,11 +88,17 @@ pip install requirements.txt
 pip install jupyter notebook
 ```
 
+![My Image](my-image.jpg)
+
+
 6. __optional__ To train the model: 
 
 ```
 python train.py
 ```
+
+![My Image](my-image.jpg)
+
 
 7. Let's launch the __web application__
 
@@ -90,7 +106,13 @@ python train.py
 python app.py
 ```
 
+![My Image](my-image.jpg)
+
+
 8. Enter the data have fun.
+
+![My Image](my-image.jpg)
+
 
 #### 2. Run with docker.
 
@@ -98,9 +120,14 @@ Assuming you already have docker installed
 
 1. Open anaconda `terminal` and `run`.
 
+![My Image](my-image.jpg)
+
 ```
 docker build -t app .
 ```
+
+![My Image](my-image.jpg)
+
 
 2. Let's check the available files
 
@@ -108,11 +135,16 @@ docker build -t app .
 docker run -it app sh
 ```
 
+![My Image](my-image.jpg)
+
+
 Make Sure that you have all project files copied.
 
 ```
 ls
 ```
+
+![My Image](my-image.jpg)
 
 3. Exit.
 
@@ -120,11 +152,16 @@ ls
 exit
 ```
 
+![My Image](my-image.jpg)
+
+
 4. Launch the app using dockers. 
 
 ```
 docker run -p 5000:5000 mlapp
 ```
+
+![My Image](my-image.jpg)
 
 
 
