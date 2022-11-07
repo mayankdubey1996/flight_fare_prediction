@@ -46,7 +46,7 @@ Although this web application won't help anyone to check the price of the flight
 
 ### How to run?
 
-For both the cases asuuming project repository is aready been cloned.
+For both the cases assuming project repository is aready been cloned.
 
 #### 1. Run without docker.
 
