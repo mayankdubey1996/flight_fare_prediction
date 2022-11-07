@@ -105,6 +105,8 @@ docker build -t app .
 docker run -it app sh
 ```
 
+Make Sure that you have all project files copied.
+
 ```
 ls
 ```
