@@ -76,7 +76,7 @@ conda activate myenv
 4. __install__ all the required dependencies to run the project.
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ![My Image](my-image.jpg)
