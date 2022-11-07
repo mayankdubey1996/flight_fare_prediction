@@ -42,7 +42,7 @@ Although this web application won't help anyone to check the price of the flight
 
 - For more analyses, baseline model and hyperparameter tuning checkout `notebook.ipynb` file.
 
-![Download Dataset](https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction)
+[Download Dataset](https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction)
 
 ### How to run?
 
