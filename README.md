@@ -42,7 +42,7 @@ Although this web application won't help anyone to check the price of the flight
 
 - For more analyses, baseline model and hyperparameter tuning checkout `notebook.ipynb` file.
 
-[!Download Dataset](https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction)
+![Download Dataset](https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction)
 
 ### How to run?
 
@@ -57,12 +57,12 @@ For both the cases assuming project repository is aready been cloned.
 conda create -n myenv python=3.7
 ```
 
-![My Image](my-image.jpg)
+![Creating environment](images/1.conda_create.png)
 
 
 2. Locate conda to project files.
 
-![My Image](my-image.jpg)
+![Locate to project files](images/2.locate.png)
 
 3. Activate the enviroment for the project.
 
@@ -70,7 +70,7 @@ conda create -n myenv python=3.7
 conda activate myenv
 ```
 
-![My Image](my-image.jpg)
+![Activate environment](images/3.activate.png)
 
 
 4. __install__ all the required dependencies to run the project.
@@ -79,7 +79,7 @@ conda activate myenv
 pip install -r requirements.txt
 ```
 
-![My Image](my-image.jpg)
+![Install dependencies](images/4.install_requirements.png)
 
 
 5. __optional__ To run `notebook.ipynb` file `run` extra command.
@@ -88,7 +88,7 @@ pip install -r requirements.txt
 pip install jupyter notebook
 ```
 
-![My Image](my-image.jpg)
+![Install notebook pakage](images/5.notebook.png)
 
 
 6. __optional__ To train the model: 
@@ -97,7 +97,7 @@ pip install jupyter notebook
 python train.py
 ```
 
-![My Image](my-image.jpg)
+![Train the model](images/6.train.png)
 
 
 7. Let's launch the __web application__
@@ -106,27 +106,27 @@ python train.py
 python app.py
 ```
 
-![My Image](my-image.jpg)
+![Launch web app](images/7.run_app.png)
 
 
 8. Enter the data have fun.
 
-![My Image](my-image.jpg)
+![Web application](images/8.web_app.png)
 
 
 #### 2. Run with docker.
 
-Assuming you already have docker installed
+Assuming you already have docker installed and locate conda to project repo
 
-1. Open anaconda `terminal` and `run`.
+![Project repo](images/9.project%20repo.png)
 
-![My Image](my-image.jpg)
+1. On anaconda terminal and `run`.
 
 ```
 docker build -t app .
 ```
 
-![My Image](my-image.jpg)
+![Bild image](images/10.build.png)
 
 
 2. Let's check the available files
@@ -135,7 +135,7 @@ docker build -t app .
 docker run -it app sh
 ```
 
-![My Image](my-image.jpg)
+![Check files](images/11.run.png)
 
 
 Make Sure that you have all project files copied.
@@ -144,7 +144,7 @@ Make Sure that you have all project files copied.
 ls
 ```
 
-![My Image](my-image.jpg)
+![List project files](images/12.ls.png)
 
 3. Exit.
 
@@ -152,7 +152,7 @@ ls
 exit
 ```
 
-![My Image](my-image.jpg)
+![Exit](images/13.exit.png)
 
 
 4. Launch the app using dockers. 
@@ -161,7 +161,11 @@ exit
 docker run -p 5000:5000 mlapp
 ```
 
-![My Image](my-image.jpg)
+![Launch app](images/14.launch.png)
+
+8. Enter the data have fun.
+
+![Web application](images/15.web_app.png)
 
 
 
