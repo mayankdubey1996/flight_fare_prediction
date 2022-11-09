@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.feature_extraction import DictVectorizer
-import xgboost as xgb
+import lightgbm as lgb
 from sklearn.metrics import mean_squared_error
 import joblib
 
@@ -17,10 +17,11 @@ def get_model_result(X_train,y_train):
     X_train_dict = X_train.to_dict(orient='records')
     dv = DictVectorizer(sparse=False)
     X_train = dv.fit_transform(X_train_dict)
-    model = xgb.XGBRegressor(subsample=0.8,n_jobs=-1,
-                            n_estimators=100,max_depth=10,
-                            learning_rate=0.2,colsample_bytree=0.6,
-                            colsample_bylevel=0.4)
+    model = lgb.LGBMRegressor(n_jobs=-1, 
+                               n_estimators=800, 
+                               max_depth=8, 
+                               learning_rate=0.03, 
+                               colsample_bytree=0.8)
     print("Training model....")
     
     model.fit(X_train,y_train)
@@ -36,5 +37,5 @@ if __name__ =="__main__":
     model,dv = get_model_result(X,y)
     
     joblib.dump(dv, 'model/feature_vect.pkl') 
-    joblib.dump(model, 'model/xgb_model.pkl')
+    joblib.dump(model, 'model/model.pkl')
 

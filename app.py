@@ -5,7 +5,7 @@ import numpy as np
 import joblib
 from datetime import date,datetime
 
-model=joblib.load("model/xgb_model.pkl")
+model=joblib.load("model/model.pkl")
 dv=joblib.load("model/feature_vect.pkl")
 
 def days_calculator(date):
